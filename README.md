@@ -7,8 +7,8 @@ Elle permet d'effectuer des opérations mathématiques de base (+, −, ×, ÷) 
 
 ## 🌟 Aperçu
 
-![Aperçu de la Calculatrice](screenshot.png)
-
+![Aperçu de la Calculatrice](Calculatrice.webp)
+ 
 ---
 
 ## 📂 Structure du projet
@@ -61,7 +61,7 @@ La calculatrice s’adapte automatiquement aux écrans mobiles et tablettes 📱
 
 ## 👨‍💻 Auteur
 
-- **Shadah HASSAN_ABDALLAH**
+- **Shadah HASSAN-ABDALLAH**
 - Projet éducatif pour pratiquer HTML, CSS et JavaScript.
 
 ---
