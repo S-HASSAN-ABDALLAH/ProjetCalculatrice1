@@ -65,6 +65,10 @@ La calculatrice s’adapte automatiquement aux écrans mobiles et tablettes 📱
 - Projet éducatif pour pratiquer HTML, CSS et JavaScript.
 
 ---
+## 📌 Liens utiles
+
+- 🔗 [Voir le projet sur GitHub](https://github.com/S-HASSAN-ABDALLAH/ProjetCalculatrice1)
+- 🌐 [Tester la Calculatrice en ligne](https://shadahcalcul.netlify.app)
 
 
 
