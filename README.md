@@ -1,0 +1,65 @@
+# 📱 Projet Calculatrice
+
+Une calculatrice moderne et responsive réalisée avec **HTML**, **CSS** et **JavaScript**.  
+Elle permet d'effectuer des opérations mathématiques de base (+, −, ×, ÷) avec une interface élégante.
+
+---
+
+## 🌟 Aperçu
+
+![Aperçu de la Calculatrice](screenshot.png)
+
+---
+
+## 📂 Structure du projet
+
+
+---
+
+## 🚀 Fonctionnalités
+
+✅ Interface moderne et responsive  
+✅ Opérations : Addition, Soustraction, Multiplication, Division  
+✅ Gestion des décimales et division par zéro (affiche "Erreur")  
+✅ Bouton "C" pour réinitialiser l’écran  
+✅ Animations sur les boutons (hover & active)
+
+---
+
+## 📦 Technologies utilisées
+
+- **HTML5** : structure de la page
+- **CSS3** : design avec grid layout et variables CSS
+- **JavaScript** : logique et gestion des événements
+
+---
+
+## 💻 Utilisation
+
+1️⃣ Cloner ou télécharger le projet.  
+2️⃣ Ouvrir `index.html` dans un navigateur moderne.  
+3️⃣ Utiliser la calculatrice :  
+   - Taper les chiffres et opérateurs.  
+   - Appuyer sur `=` pour calculer.  
+   - Utiliser `C` pour tout effacer.
+
+---
+
+## 📱 Responsive Design
+
+La calculatrice s’adapte automatiquement aux écrans mobiles et tablettes 📱.
+
+---
+
+## 👨‍💻 Auteur
+
+- **Votre Nom**
+- Projet éducatif pour pratiquer HTML, CSS et JavaScript.
+
+---
+
+## 🔥 Démo en ligne
+
+👉 *(optionnel)* Ajoutez un lien ici si vous hébergez la démo (ex: GitHub Pages, Netlify)
+
+

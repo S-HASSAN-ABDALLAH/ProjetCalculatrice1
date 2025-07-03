@@ -1,0 +1,175 @@
+
+        :root {
+            --bg-page: #e0e7ff;
+            --bg-panel: linear-gradient(135deg, #ffffff, #f0f4ff);
+            --bg-display: linear-gradient(135deg, #1a1a2e, #16213e);
+            --text-display: #00ff95;
+            --btn-num: linear-gradient(135deg, #ffffff, #f5f7fa);
+            --btn-op: linear-gradient(135deg, #fff3e6, #ffe6cc);
+            --btn-clear: linear-gradient(135deg, #ffebee, #ffcdd2);
+            --btn-eq: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+            --radius: 12px;
+            --shadow: rgba(0, 0, 0, 0.15);
+            --transition: all 0.3s ease;
+        }
+
+
+        .calculator {
+            margin: 50px auto;
+            background: var(--bg-panel);
+            border-radius: var(--radius);
+            box-shadow: 0 12px 32px var(--shadow);
+            overflow: hidden;
+            width: 340px;
+         
+            border: 2px solid black;
+        }
+
+
+        .display {
+            background: var(--bg-display);
+            color: var(--text-display);
+            text-align: right;
+            padding: 2rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .keys {
+            display: grid;
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas:
+                "clear divide multiply subtract"
+                "seven eight nine add"
+                "four five six add"
+                "one two three add"
+                "zero zero dot equal";
+            gap: 3px;
+        }
+
+        .keys button {
+            border: none;
+            background: var(--btn-num);
+            font-size: 1.3rem;
+            cursor: pointer;
+            padding: 1.2rem;
+            border-radius: var(--radius);
+            transition: var(--transition);
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .keys button:hover {
+            filter: brightness(1.1);
+            transform: scale(1.05);
+        }
+
+        .keys button:active {
+            transform: scale(0.98);
+        }
+
+        .clear {
+            grid-area: clear;
+            background: var(--btn-clear);
+            color: #c0392b;
+        }
+
+        .divide {
+            grid-area: divide;
+            background: var(--btn-op);
+        }
+
+        .multiply {
+            grid-area: multiply;
+            background: var(--btn-op);
+        }
+
+        .subtract {
+            grid-area: subtract;
+            background: var(--btn-op);
+        }
+
+        .seven {
+            grid-area: seven;
+        }
+
+        .eight {
+            grid-area: eight;
+        }
+
+        .nine {
+            grid-area: nine;
+        }
+
+        .add {
+            grid-area: add;
+            background: var(--btn-op);
+        }
+
+        .four {
+            grid-area: four;
+        }
+
+        .five {
+            grid-area: five;
+        }
+
+        .six {
+            grid-area: six;
+        }
+
+        .one {
+            grid-area: one;
+        }
+
+        .two {
+            grid-area: two;
+        }
+
+        .three {
+            grid-area: three;
+        }
+
+        .zero {
+            grid-area: zero;
+        }
+
+        .dot {
+            grid-area: dot;
+        }
+
+        .equal {
+            grid-area: equal;
+            background: var(--btn-eq);
+            color: #007bff;
+        }
+
+        .clear,
+        .equal {
+            font-weight: bold;
+        }
+
+        .add,
+        .subtract,
+        .multiply,
+        .divide {
+            color: #2c3e50;
+        }
+
+        @media (max-width: 360px) {
+            .calculator {
+                width: 100%;
+            }
+
+            .display {
+                font-size: 1.8rem;
+                padding: 1.5rem;
+            }
+
+            .keys button {
+                font-size: 1.1rem;
+                padding: 1rem;
+            }
+        }
+  

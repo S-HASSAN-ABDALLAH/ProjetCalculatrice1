@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Définit l'encodage des caractères comme UTF-8 pour supporter les accents et caractères spéciaux -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+    <!-- Assure la responsivité sur tous les appareils en adaptant la largeur et l'échelle initiale -->
+    <title>Calculatrice</title> <!-- Titre affiché dans l'onglet du navigateur -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="calculatrice.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Calculatrice</h1>
+      
+
+
+    <div class="calculator"> <!-- Conteneur principal de la calculatrice -->
+        <div id="display" class="display">0</div> <!-- Écran affichant le résultat, initialisé à 0 -->
+        <div class="keys"> <!-- Grille des boutons -->
+            <button class="clear" id="clear">C</button> <!-- Bouton de réinitialisation -->
+            <button class="divide" data-op="/">÷</button> <!-- Division -->
+            <button class="multiply" data-op="*">×</button> <!-- Multiplication -->
+            <button class="subtract" data-op="-">−</button> <!-- Soustraction -->
+            <button class="seven" data-num="7">7</button> <!-- 7 -->
+            <button class="eight" data-num="8">8</button> <!-- 8 -->
+            <button class="nine" data-num="9">9</button> <!-- 9 -->
+            <button class="add" data-op="+">+</button> <!-- Addition -->
+            <button class="four" data-num="4">4</button> <!-- 4 -->
+            <button class="five" data-num="5">5</button> <!-- 5 -->
+            <button class="six" data-num="6">6</button> <!-- 6 -->
+            <button class="one" data-num="1">1</button> <!-- 1 -->
+            <button class="two" data-num="2">2</button> <!-- 2 -->
+            <button class="three" data-num="3">3</button> <!-- 3 -->
+            <button class="zero" data-num="0">0</button> <!-- 0 -->
+            <button class="dot" data-num=".">.</button> <!-- Point décimal -->
+            <button class="equal" id="equal">=</button> <!-- Bouton égal -->
+        </div>
+    </div>
+<script src="/script.js"></script>
+ <script src="calculatrice.js"></script>
+</body>
+
+</html> 
