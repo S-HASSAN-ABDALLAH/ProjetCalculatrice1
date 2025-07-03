@@ -1,5 +1,5 @@
 body{
-    background-color: #ffcdd2;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(246,161,34,0.85) 0.1%, rgba(254,118,118,0.87) 90% );
 }
         :root {
             --bg-page: #ffe0fd;
