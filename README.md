@@ -13,6 +13,14 @@ Elle permet d'effectuer des opérations mathématiques de base (+, −, ×, ÷) 
 
 ## 📂 Structure du projet
 
+```text
+Projet-Calculatrice/
+│
+├── index.html      # Structure HTML principale
+├── style.css       # Fichier CSS pour le design
+├── script.js       # Logique JavaScript de la calculatrice
+└── README.md       # Ce fichier
+
 
 ---
 
@@ -53,7 +61,7 @@ La calculatrice s’adapte automatiquement aux écrans mobiles et tablettes 📱
 
 ## 👨‍💻 Auteur
 
-- **Votre Nom**
+- **Shadah HASSAN_ABDALLAH**
 - Projet éducatif pour pratiquer HTML, CSS et JavaScript.
 
 ---
