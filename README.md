@@ -66,8 +66,5 @@ La calculatrice s’adapte automatiquement aux écrans mobiles et tablettes 📱
 
 ---
 
-## 🔥 Démo en ligne
-
-👉 *(optionnel)* Ajoutez un lien ici si vous hébergez la démo (ex: GitHub Pages, Netlify)
 
 
