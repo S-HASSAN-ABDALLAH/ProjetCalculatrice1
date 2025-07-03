@@ -7,7 +7,7 @@ Elle permet d'effectuer des opérations mathématiques de base (+, −, ×, ÷) 
 
 ## 🌟 Aperçu
 
-![Aperçu de la Calculatrice](Calculatrice.webp)
+![Aperçu de la Calculatrice](Calculatrice%20(1).webp)
  
 ---
 
